@@ -3,14 +3,14 @@
 *{ margin: 0; padding: 0; list-style: none; border: 0;}
 
 #interface{
-    background-color: lightgreen;
+    background-color: lightgray;
     width: 80%;
     margin: 0 auto;
 }
 
 #pagina{
     width: 70%;
-    background-color: green;
+    background-color: gray;
     margin: 0 auto;
     text-align: center;
     color: white;
@@ -18,10 +18,13 @@
 
 img{
     padding-top: 100px;
+    width: 70%;
+    height: 70%;
 }
 
 .btn{
-    padding: 10px;
+    padding: 2%;
+    border-radius: 20px;
     color: white;
     background-color: black;
 }
