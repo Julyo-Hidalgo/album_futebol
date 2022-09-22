@@ -9,7 +9,7 @@
     <body>
         <div id="interface">
             <div id="pagina">
-                <img src="/img/capa.jpg">
+                <img src="">
                 <h1>Time de 1954</h1>
                 <button class="btn" onclick="">anterior</button>
                 <button class="btn" onclick="">próximo</button>
