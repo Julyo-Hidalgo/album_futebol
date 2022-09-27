@@ -15,8 +15,10 @@ class pagina_controller{
         
         $model = new pagina_model();
 
+        $model->id = $_POST['valor_btn'];
+
         $model->trocar_carta($model->id);
 
-        include "app/view/modules/pagina/pagina.php";
+        include "view/modules/pagina/pagina.php";
     }
 }

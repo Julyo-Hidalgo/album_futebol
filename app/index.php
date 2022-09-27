@@ -9,6 +9,10 @@ switch($url){
         pagina_controller::index(); 
     break;
 
+    case '/troca':
+        pagina_controller::trocar_cartas();
+    break;
+
     default:
         echo "erro 404";
     break;

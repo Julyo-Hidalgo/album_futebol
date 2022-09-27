@@ -9,4 +9,10 @@ create table pagina(
 );
 
 /*Inserts*/
-insert into pagina(link) values ("app/view/modules/pagina/img/capa.jpg"), ("app/view/modules/pagina/img/carta1.PNG"), ("view/modules/pagina/img/carta2.PNG"), ("app/view/modules/pagina/img/carta3.PNG"), ("app/view/modules/pagina/img/carta4.PNG");
+insert into pagina(link) values ("view/modules/pagina/img/capa.jpg"), ("view/modules/pagina/img/carta1.PNG"), ("view/modules/pagina/img/carta2.PNG"), ("view/modules/pagina/img/carta3.PNG"), ("view/modules/pagina/img/carta4.PNG");
+
+/*tests*/
+select * from pagina;
+
+/*caso dê problemas*/
+drop database mydb;

@@ -7,13 +7,16 @@
         <title>Álbum de figurinhas</title>
     </head>
     <body>
-        <?php foreach ($model->rows as $item):?>
+        <?php foreach($model->rows as $item): ?>
+
             <div id="interface">
                 <div id="pagina">
-                    <img src="<?php $item->link ?>">
+                    <img src="<?=$item->link?>">
                     <h1>Time de 1954</h1>
-                    <button class="btn" onclick="">anterior</button>
-                    <button class="btn" onclick="">próximo</button>
+                    <form method="post" action="/troca">
+                        <button name="valor_btn" class="btn" type="submit" value=<?= $model->id - 1 ?> >anterior</button>
+                        <button name="valor_btn" class="btn" type="submit" value=<?= $model->id + 1 ?> >próximo</button>
+                    </form>
                 </div>
             </div>
         <?php endforeach ?>

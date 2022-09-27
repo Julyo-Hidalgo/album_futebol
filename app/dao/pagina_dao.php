@@ -8,7 +8,7 @@ class pagina_dao{
         $dns = "mysql:host=localhost:3307;dbname=mydb";
         $this->conexao = new PDO($dns, 'root', 'etecjau');
     }
-
+    
     public function troca_carta_pelo_id(int $id){
         $sql = "select * from pagina where id = ?";
 
